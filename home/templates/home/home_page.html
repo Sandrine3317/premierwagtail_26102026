@@ -1,21 +1,13 @@
 {% extends "base.html" %}
-{% load static %}
-
-{% block body_class %}template-homepage{% endblock %}
-
-{% block extra_css %}
-
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
-{% endblock extra_css %}
-
 {% block content %}
-
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
-{% include 'home/welcome_page.html' %}
-
+<h1>{{ page.title }}</h1>
+<p>
+    Bonjour, je m'appelle Sandrine. Je suis en formation "Découverte
+    Métier IA" chez Simplon Bordeaux, où j'apprends les bases du
+    développement web : HTML, CSS, Python, et des outils comme Git et
+    Wagtail.
+</p>
+<p>
+    Je me suis lancée dans cette formation Je me suis lancée dans cette formation car l'informatique m'attire depuis toujours. J'ai envie de découvrir un métier qui me permette d'apprendre continuellement, de comprendre comment les choses fonctionnent et de créer des projets concrets.
+</p>
 {% endblock content %}
