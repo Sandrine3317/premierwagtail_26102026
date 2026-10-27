@@ -4,7 +4,9 @@ body {
     margin: 40px auto;
     padding: 0 20px;
     color: #2c3e50;
+    background:linear-gradient(to right, rgb(99, 172, 232),rgb(78, 128, 210), white);
 }
 h1 {
-    color: #16a085;
+    color: #0a0e80;
 }
+
